@@ -1,5 +1,7 @@
-import os
-import dotenv
+# movies-and-series-dexcription-collect/catalogue.py
+# Streamlit app to find movie and series information using OMDB API
+# Import necessary libraries
+
 import requests
 import streamlit as st
 

@@ -6,7 +6,8 @@ import requests
 import streamlit as st
 
 # Load API Key
-API_KEY = st.secrets["api_key"]
+API_KEY = st.secrets["general"]["api_key"]
+
 
 def app():
     st.set_page_config(page_title="🎬 Movie Finder", page_icon="🍿", layout="centered")

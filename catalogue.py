@@ -4,8 +4,7 @@ import requests
 import streamlit as st
 
 # Load API Key
-dotenv.load_dotenv()
-API_KEY = os.getenv("api_key")
+API_KEY = st.secrets["api_key"]
 
 def app():
     st.set_page_config(page_title="🎬 Movie Finder", page_icon="🍿", layout="centered")

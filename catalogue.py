@@ -17,33 +17,28 @@ def app():
     st.markdown("""
         <style>
         .stApp {
-            background-color: white;
+            background-color: Black;
             color: black;
         }
         .main-title {
             text-align: center;
             font-size: 50px;
             font-weight: bold;
-            color: black;
+            color: pink;
             margin-bottom: 25px;
-        }
-        .movie-card {
-            background: #fff;
-            border-radius: 20px;
-            box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
-            padding: 25px;
-            text-align: center;
-            color: black;
         }
         .movie-title {
             font-size: 30px;
             font-weight: bold;
             margin-top: 10px;
+            color: #ff69b4;
+            text-align: center;     
         }
         .movie-info {
             font-size: 18px;
             margin-top: 10px;
             text-align: left;
+            color: white;
         }
         .stButton > button {
             background-color: #ffb6c1;

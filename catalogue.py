@@ -9,6 +9,7 @@ import streamlit as st
 API_KEY = st.secrets["general"]["api_key"]
 
 
+
 def app():
     st.set_page_config(page_title="🎬 Movie Finder", page_icon="🍿", layout="centered")
 
